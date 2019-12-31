@@ -9,4 +9,11 @@ For MNIST this is the result of these "idealized" input images that the network 
 
 ![png](results.png)
 
+### How to run this?
+
+Run `python mnist.py` to train the MNIST neural network. This saves the model weights as mnist_cnn.pt.
+Afterwards, run `python generate_image.py` to loop over the 10 target classes and generate the images in the `generated` folder.
+
+## Blog entry explaining the details
+
 If you want to learn more: check out my blog entry explaining this [visualization technique for deep neural networks](https://www.paepper.com/blog/posts/do-you-know-which-inputs-your-neural-network-likes-most/)
